@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (usually too large for git)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Model files
+*.model
+*.h5
+*.sav
+models/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Credentials and secrets
+.env
+config/secrets.yaml
+credentials.json
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Large files
+data/raw/
+data/processed/
+results/models/
+
+# Keep empty directories
+!data/.gitkeep
+!models/.gitkeep
+!results/.gitkeep
