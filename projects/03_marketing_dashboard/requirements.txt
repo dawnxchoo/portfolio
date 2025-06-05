@@ -2,4 +2,10 @@ streamlit==1.28.0
 pandas==2.0.3
 numpy==1.24.3
 plotly==5.17.0
+matplotlib==3.7.2
+seaborn==0.12.2
+scipy==1.11.1
 python-dateutil==2.8.2
+openpyxl==3.1.2
+jupyter==1.0.0
+notebook==7.0.0
